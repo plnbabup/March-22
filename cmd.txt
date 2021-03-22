@@ -1,0 +1,18 @@
+git init -> to initialize git
+git add <file_name/.> -> to add your file to staging area
+git commit -m "message" -> records the changes made to the files in local repository
+git status -> returns current state of repository
+            -> user.name "name"
+git config                 -> what name and email address assigned to commits from a local repository
+            -> user.email "emailid"
+// git config <--global> user.name/user.email "name/email"  <--global is used to create name globally>
+
+
+git remote add <name> <url> -> to connect local repository to a remote repository(github) (generally name is origin)
+
+git push <name> master -> to get changes done in local repository to remote one (generally name is origin)
+
+git clone <url> -> to create a local working copy of an existing remote repository
+
+git pull <name> master -> to get changes done in remote repository to local one (generally name is origin)
+
