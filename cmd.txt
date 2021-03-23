@@ -1,7 +1,11 @@
 git init -> to initialize git
+
 git add <file_name/.> -> to add your file to staging area
+
 git commit -m "message" -> records the changes made to the files in local repository
+
 git status -> returns current state of repository
+
             -> user.name "name"
 git config                 -> what name and email address assigned to commits from a local repository
             -> user.email "emailid"
@@ -11,6 +15,10 @@ git config                 -> what name and email address assigned to commits fr
 git remote add <name> <url> -> to connect local repository to a remote repository(github) (generally name is origin)
 
 git push <name> master -> to get changes done in local repository to remote one (generally name is origin)
+
+git log --oneline -> to get total commits and the recent commit will be at top
+
+git log -> to get details of commits i.e, username, usere-mail, time and date ....etc.
 
 git clone <url> -> to create a local working copy of an existing remote repository
 
